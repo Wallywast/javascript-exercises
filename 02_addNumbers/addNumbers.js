@@ -1,13 +1,10 @@
 function addNumbers() {
+  console.log("File caricato correttamente!");
   const a = 1;
   const b = 1;
-
-  let result;
-
-  result = "a" + "b"; // <------ EDIT THIS LINE
-
+  let result = a + b;
+  console.log('a:', a, 'b:', b, 'result:', result);
   return result;
 }
 
-// Do not change this
 module.exports = addNumbers;
